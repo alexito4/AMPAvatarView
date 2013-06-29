@@ -19,6 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    AMPAvatarView *avatar2 = [[AMPAvatarView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+    avatar2.image = [UIImage imageNamed:@"avatar"];
+    [self.view addSubview:avatar2];
 	
     [self.avatar setImage:[UIImage imageNamed:@"avatar"]];
 }
