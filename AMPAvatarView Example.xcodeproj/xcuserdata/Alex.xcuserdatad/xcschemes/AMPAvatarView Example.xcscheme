@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA3C3553177ED30B00F9F60A"
-               BuildableName = "AMPAvatarView.app"
-               BlueprintName = "AMPAvatarView"
-               ReferencedContainer = "container:AMPAvatarView.xcodeproj">
+               BlueprintIdentifier = "FACDF5531785CD230055192C"
+               BuildableName = "AMPAvatarView Example.app"
+               BlueprintName = "AMPAvatarView Example"
+               ReferencedContainer = "container:AMPAvatarView Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA3C3553177ED30B00F9F60A"
-            BuildableName = "AMPAvatarView.app"
-            BlueprintName = "AMPAvatarView"
-            ReferencedContainer = "container:AMPAvatarView.xcodeproj">
+            BlueprintIdentifier = "FACDF5531785CD230055192C"
+            BuildableName = "AMPAvatarView Example.app"
+            BlueprintName = "AMPAvatarView Example"
+            ReferencedContainer = "container:AMPAvatarView Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA3C3553177ED30B00F9F60A"
-            BuildableName = "AMPAvatarView.app"
-            BlueprintName = "AMPAvatarView"
-            ReferencedContainer = "container:AMPAvatarView.xcodeproj">
+            BlueprintIdentifier = "FACDF5531785CD230055192C"
+            BuildableName = "AMPAvatarView Example.app"
+            BlueprintName = "AMPAvatarView Example"
+            ReferencedContainer = "container:AMPAvatarView Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA3C3553177ED30B00F9F60A"
-            BuildableName = "AMPAvatarView.app"
-            BlueprintName = "AMPAvatarView"
-            ReferencedContainer = "container:AMPAvatarView.xcodeproj">
+            BlueprintIdentifier = "FACDF5531785CD230055192C"
+            BuildableName = "AMPAvatarView Example.app"
+            BlueprintName = "AMPAvatarView Example"
+            ReferencedContainer = "container:AMPAvatarView Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

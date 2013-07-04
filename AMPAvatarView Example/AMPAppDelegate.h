@@ -1,8 +1,8 @@
 //
 //  AMPAppDelegate.h
-//  AMPAvatarView
+//  AMPAvatarView Example
 //
-//  Created by Alejandro Martinez on 29/06/13.
+//  Created by Alejandro Martinez on 04/07/13.
 //  Copyright (c) 2013 Alejandro Martinez. All rights reserved.
 //
 

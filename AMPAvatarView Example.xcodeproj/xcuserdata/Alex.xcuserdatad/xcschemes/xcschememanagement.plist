@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AMPAvatarView.xcscheme</key>
+		<key>AMPAvatarView Example.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FA3C3553177ED30B00F9F60A</key>
+		<key>FACDF5531785CD230055192C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
