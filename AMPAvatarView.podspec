@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.ios.deployment_target = '5.0'
   # s.osx.deployment_target = '10.7'
 
-  s.source_files = 'AMPAvatarView/AMPAvatarView'
+  s.source_files = 'AMPAvatarView/AMPAvatarView/*.{h,m}'
 
   s.framework  = 'QuartzCore'
 
