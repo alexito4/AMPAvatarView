@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "A simple UIView subclass that shows an UIImage with a shadow in a circle."
   s.homepage     = "https://github.com/alexito4/AMPAvatarView"
   s.author       = { "alexito4" => "alexito4@gmail.com" }
-  s.source       = { :git => "https://github.com/alexito4/AMPAvatarView.git", :tag => "1.0.2 }
+  s.source       = { :git => "https://github.com/alexito4/AMPAvatarView.git", :tag => "1.0.2" }
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.platform = :ios
