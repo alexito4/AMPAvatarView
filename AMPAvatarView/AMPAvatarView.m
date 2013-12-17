@@ -65,6 +65,11 @@
     self.layer.shadowColor = _shadowColor.CGColor;
 }
 
+- (void)setImage:(UIImage *)image {
+    _image = image;
+    [self setNeedsDisplay];
+}
+
 #pragma mark - Drawing
 
 - (void)drawRect:(CGRect)rect {
