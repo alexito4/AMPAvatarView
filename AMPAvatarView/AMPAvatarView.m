@@ -122,6 +122,8 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
 - (void)baseInit {
     [self setBackgroundColor:[UIColor clearColor]];
     
+    self.innerBackgroundColor = [UIColor whiteColor];
+
     self.borderWith = 4.0;
     self.borderColor = [UIColor whiteColor];
     
@@ -133,6 +135,11 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
 }
 
 #pragma mark -
+
+- (void)setInnerBackgroundColor:(UIColor *)innerBackgroundColor {
+    _innerBackgroundColor = innerBackgroundColor;
+    [self setNeedsDisplay];
+}
 
 - (void)setBorderWith:(CGFloat)borderWith {
     _borderWith = borderWith;
@@ -176,6 +183,15 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
         CGContextBeginPath(ctx);
         CGContextAddPath(ctx, circle);
         [_borderColor setFill];
+        CGContextFillPath(ctx);
+    } CGContextRestoreGState(ctx);
+
+    // Draw the inner background color
+    CGContextSaveGState(ctx); {
+        
+        CGContextBeginPath(ctx);
+        CGContextAddPath(ctx, littleCircle);
+        [_innerBackgroundColor setFill];
         CGContextFillPath(ctx);
     } CGContextRestoreGState(ctx);
     

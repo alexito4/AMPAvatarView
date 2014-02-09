@@ -12,6 +12,9 @@
 
 @property (nonatomic, strong) UIImage *image;
 
+// Inner background color
+@property (nonatomic, strong) UIColor *innerBackgroundColor;
+
 // Border
 @property (nonatomic) CGFloat borderWith;
 @property (nonatomic, strong) UIColor *borderColor;
