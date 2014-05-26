@@ -35,7 +35,7 @@
 
 - (IBAction)sliderWithChanged:(id)sender {
     UISlider *slider = (UISlider *)sender;
-    [self.avatar setBorderWith:slider.value];
+    [self.avatar setBorderWidth:slider.value];
 }
 
 - (IBAction)changeBorderColor:(id)sender {

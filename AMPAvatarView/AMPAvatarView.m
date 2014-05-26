@@ -124,7 +124,7 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
     
     self.innerBackgroundColor = [UIColor whiteColor];
 
-    self.borderWith = 4.0;
+    self.borderWidth = 4.0;
     self.borderColor = [UIColor whiteColor];
     
     self.shadowRadius = 5.0;
@@ -141,8 +141,8 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
     [self setNeedsDisplay];
 }
 
-- (void)setBorderWith:(CGFloat)borderWith {
-    _borderWith = borderWith;
+- (void)setBorderWidth:(CGFloat)borderWidth {
+    _borderWidth = borderWidth;
     [self setNeedsDisplay];
 }
 
@@ -175,7 +175,7 @@ CGRect AMPDrawingRectForContentMode(CGSize imageSize, CGRect bounds, UIViewConte
     CGContextSaveGState(ctx);
     
     CGPathRef circle = CGPathCreateWithEllipseInRect(bounds, NULL);
-    CGPathRef littleCircle = CGPathCreateWithEllipseInRect(CGRectInset(bounds, _borderWith, _borderWith), NULL);
+    CGPathRef littleCircle = CGPathCreateWithEllipseInRect(CGRectInset(bounds, _borderWidth, _borderWidth), NULL);
 
     // Draw the border
     CGContextSaveGState(ctx); {

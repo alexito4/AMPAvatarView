@@ -16,7 +16,7 @@
 @property (nonatomic, strong) UIColor *innerBackgroundColor;
 
 // Border
-@property (nonatomic) CGFloat borderWith;
+@property (nonatomic) CGFloat borderWidth;
 @property (nonatomic, strong) UIColor *borderColor;
 
 // Shadow
