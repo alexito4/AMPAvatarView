@@ -1,6 +1,10 @@
 AMPAvatarView
 =============
 
+[![Version](https://img.shields.io/cocoapods/v/AMPAvatarView.svg?style=flat)](http://cocoadocs.org/docsets/AMPAvatarView)
+[![License](https://img.shields.io/cocoapods/l/AMPAvatarView.svg?style=flat)](http://cocoadocs.org/docsets/AMPAvatarView)
+[![Platform](https://img.shields.io/cocoapods/p/AMPAvatarView.svg?style=flat)](http://cocoadocs.org/docsets/AMPAvatarView)
+
 A simple UIView subclass that shows an UIImage with a shadow in a circle.
 
 **Posted to put Objective-C [Back on the Map](https://objectivechackathon.appspot.com/) again!**
@@ -40,7 +44,7 @@ Alejandro Martinez, alexito4@gmail.com
 
 ## License
 
-teste is available under the MIT license. See the LICENSE file for more info.
+AMPAvatarView is available under the MIT license. See the LICENSE file for more info.
 
 
 
