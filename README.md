@@ -16,14 +16,10 @@ You can create an instance of this view using code or IB.
 You can change some properties. 
 
 - The image (really?)
-- Border with
+- Border width
 - Border color
 - Shadow radius
 - Shadow color
-
-And don't forget to add **QuartzCore.framework** to your project!
-
-
 
 Example
 =============
@@ -31,8 +27,20 @@ Just a simple example to show how you can change a couple of things.
 
 ![AMPAvatarView example](/example.png "Project example")
 
+## Installation
 
+AMPAvatarView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
+    pod "AMPAvatarView"
+
+## Author
+
+Alejandro Martinez, alexito4@gmail.com
+
+## License
+
+teste is available under the MIT license. See the LICENSE file for more info.
 
 
 
