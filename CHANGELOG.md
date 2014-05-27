@@ -1,0 +1,3 @@
+# AMPAvatarView CHANGELOG
+
+

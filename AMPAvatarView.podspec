@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AMPAvatarView"
-  s.version      = "1.0.3"
+  s.version      = "1.1"
   s.summary      = "A simple UIView subclass that shows an UIImage with a shadow in a circle."
   s.homepage     = "https://github.com/alexito4/AMPAvatarView"
   s.author       = { "Alejandro Martínez" => "alexito4@gmail.com" }
